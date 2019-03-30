@@ -1,0 +1,64 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29-mar-2019, 14.32.50
+    Author     : matte
+*/
+
+// link per includere il css - tutte le pagine
+//<link rel="stylesheet" type="text/css" href="style.css" media="screen">
+
+body {
+    //    Colore di sfondo
+    background: black;
+    
+    //    Colore e font per il del testo
+    font-family: serif;
+    color: white;
+    
+    //    Proprietà dei dei titoli (almeno da h1 ad h3)
+    h1 {color: blue; font-size: 12px; };
+    h2 {color: blue; font-size: 12px; };
+    h3 {color: blue; font-size: 12px; };
+
+    //    Proprietà dei link
+    a:link {color: blue; font-size: 12px; };             //per lo stato «normale>
+    a:visited {color: blue; font-size: 12px; };          //per i link visitati
+    img:hover {color: blue; font-size: 12px; };          //quando il puntatore è sopra il link
+    button:active {color: blue; font-size: 12px; };      //quando il link viene cliccato
+    input:focus {color: blue; font-size: 12px; };        //quando ci si passa sopra col mouse
+    
+    //    Visualizzazione dei campi di input
+    //display:block       //l’elemento prende tutta la larghezza disponibile e viene aggiunta un’interruzione di riga prima e dopo di lui
+    //display:inline      //prende solo la larghezza disponibile e non si aggiungono le interruzioni di riga prima e dopo
+    //display:none        //nasconde l’elemento, facendo in modo che non prenda nessuno spazio§La modalità di default del display dipende dall’elemento:§block: h1...h6, p, div, ul, li ...
+    //visibility: hidden  //§In questo caso le sue dimensioni vengono calcolate ed il browser riserva lo spazio per l’element
+    
+}
+
+
+#container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+header { }
+
+nav { }
+
+#main {
+  float: left;
+  width: 620px;    
+}
+
+aside {
+  float: right;
+  width: 300px;    
+}
+
+footer {
+  clear: both;    
+}
